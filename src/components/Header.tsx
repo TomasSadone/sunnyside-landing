@@ -28,7 +28,7 @@ const Header = (props: Props) => {
               return <HeaderLink key={item} content={item} />;
             })}
             <li>
-              <button className='rounded-full bg-yellow py-4  px-8 font-fraunces font-bold md:bg-white md:py-2 '>
+              <button className='rounded-full bg-yellow py-4  px-8 font-fraunces font-bold md:bg-white text-very-dark-desaturated-blue md:hover:bg-opacity-30 md:hover:text-white md:transition '>
                 CONTACT
               </button>
             </li>
@@ -45,7 +45,7 @@ const Header = (props: Props) => {
         <h1 className='px-4  text-center font-fraunces text-6xl text-white'>
           WE ARE CREATIVES
         </h1>
-        <img className=' left-2/4 ml-[-18px]' src={DownArrow} alt='' />
+        <img className=' left-2/4' src={DownArrow} alt='' />
       </div>
       <img className='md-max:hidden' src={DesktopHeaderImage} alt='' />
       <img className='md:hidden' src={MobileHeaderImage} alt='' />
