@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  safelist: [
-    'yellow',
-    'soft-red'
-  ],
+  safelist: ["yellow", "soft-red"],
   theme: {
     extend: {
       colors: {
@@ -20,8 +17,8 @@ module.exports = {
       },
       screens: {
         md: "750px",
-        'md-max' : {'max': '750px'},
-        l: '900px'
+        "md-max": { max: "750px" },
+        l: "910px",
       },
     },
     fontFamily: {

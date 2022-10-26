@@ -11,7 +11,7 @@ type Props = {};
 const Header = (props: Props) => {
   const [open, setOpen] = useState(false);
   const handleClick = () => setOpen(!open);
-  const beforeLi = `md-max:before:absolute md-max:before:-top-[18px] md-max:before:-right-5 md-max:before:h-0 md-max:before:w-0 md-max:before:rotate-[135deg] md-max:before:border-[20px] md-max:before:border-t-transparent md-max:before:border-l-transparent md-max:before:border-r-transparent md-max:before:border-b-white`;
+  const beforeLi = `md-max:before:absolute md-max:before:-top-[18px] md-max:before:-right-5 md-max:before:h-0 md-max:before:w-0 md-max:before:rotate-[136deg] md-max:before:border-[20px] md-max:before:border-t-transparent md-max:before:border-l-transparent md-max:before:border-r-transparent md-max:before:border-b-white`;
   return (
     <header className='relative'>
       <div className='absolute left-0 right-0 top-0 flex items-center justify-between bg-transparent p-4'>
@@ -28,7 +28,7 @@ const Header = (props: Props) => {
               return <HeaderLink key={item} content={item} />;
             })}
             <li>
-              <button className='rounded-full bg-yellow py-4  px-8 font-fraunces font-bold md:bg-white text-very-dark-desaturated-blue md:hover:bg-opacity-30 md:hover:text-white md:transition '>
+              <button className='rounded-full bg-yellow py-4  px-8 font-fraunces font-bold text-very-dark-desaturated-blue md:bg-white md:transition md:hover:bg-opacity-30 md:hover:text-white '>
                 CONTACT
               </button>
             </li>

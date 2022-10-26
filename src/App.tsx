@@ -1,14 +1,16 @@
 import React from "react";
 import Header from "./components/Header";
 import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
 
 type Props = {};
 
 const App = (props: Props) => {
   return (
-    <div className='font-barlow overflow-x-hidden'>
+    <div className='overflow-x-hidden font-barlow'>
       <Header />
-      <Services/>
+      <Services />
+      <Testimonials />
     </div>
   );
 };
