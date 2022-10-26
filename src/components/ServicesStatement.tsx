@@ -14,9 +14,9 @@ const ServicesStatement: React.FC<Props> = ({ title, text, color }) => {
           <h1 className='font-fraunces text-3xl font-black text-very-dark-desaturated-blue l:text-5xl'>
             {title}
           </h1>
-          <p className='text-very-dark-grayish-blue'>{text}</p>
+          <p className='tracking-tighter text-grayish-blue'>{text}</p>
           <button
-            className={`relative after:-z-10 after:h-3 after:w-[145px] after:rounded-full after:bg-opacity-30 after:transition hover:after:bg-opacity-100 ${color} place-self-start font-fraunces text-lg text-very-dark-desaturated-blue after:absolute after:bottom-0 after:left-[-9px]`}
+            className={`relative font-black after:-z-10 after:h-3 after:w-[145px] after:rounded-full after:bg-opacity-30 after:transition hover:after:bg-opacity-100 ${color} place-self-start font-fraunces text-lg text-very-dark-desaturated-blue after:absolute after:bottom-0 after:left-[-9px]`}
           >
             LEARN MORE
           </button>

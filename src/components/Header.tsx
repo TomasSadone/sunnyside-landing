@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { ReactComponent as Logo } from "../../images/logo.svg";
 import DownArrow from "../../images/icon-arrow-down.svg";
 import HeaderLink from "./HeaderLink";
-import DesktopHeaderImage from "../../images/desktop/image-header.jpg";
-import MobileHeaderImage from "../../images/mobile/image-header.jpg";
+const DesktopHeaderImage = "../../images/desktop/image-header.jpg";
+const MobileHeaderImage = "../../images/mobile/image-header.jpg";
 import HamburgerMenu from "../../images/icon-hamburger.svg";
 
 type Props = {};
@@ -42,13 +42,16 @@ const Header = (props: Props) => {
         </nav>
       </div>
       <div className='absolute top-[30%] flex w-full flex-col items-center justify-center gap-8'>
-        <h1 className='px-4  text-center font-fraunces text-6xl text-white'>
+        <h1 className='px-4 text-center font-fraunces text-6xl tracking-widest text-white'>
           WE ARE CREATIVES
         </h1>
         <img className=' left-2/4' src={DownArrow} alt='' />
       </div>
-      <img className='md-max:hidden' src={DesktopHeaderImage} alt='' />
-      <img className='md:hidden' src={MobileHeaderImage} alt='' />
+      <picture>
+        <source srcSet={DesktopHeaderImage} media='(min-width: 781px)' />
+        <source srcSet={MobileHeaderImage} media='(max-width: 780px)' />
+        <img src={MobileHeaderImage} />
+      </picture>
     </header>
   );
 };

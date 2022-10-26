@@ -16,8 +16,8 @@ module.exports = {
         "grayish-blue": "hsl(210, 4%, 67%)",
       },
       screens: {
-        md: "750px",
-        "md-max": { max: "750px" },
+        md: "780px",
+        "md-max": { max: "780px" },
         l: "910px",
       },
     },

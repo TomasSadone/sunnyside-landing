@@ -1,4 +1,5 @@
 import React from "react";
+import DecorativeImages from "./components/DecorativeImages";
 import Header from "./components/Header";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
@@ -11,6 +12,7 @@ const App = (props: Props) => {
       <Header />
       <Services />
       <Testimonials />
+      <DecorativeImages />
     </div>
   );
 };
