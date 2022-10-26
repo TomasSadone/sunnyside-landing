@@ -1,5 +1,6 @@
 import React from "react";
 import DecorativeImages from "./components/DecorativeImages";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
@@ -13,6 +14,7 @@ const App = (props: Props) => {
       <Services />
       <Testimonials />
       <DecorativeImages />
+      <Footer />
     </div>
   );
 };
