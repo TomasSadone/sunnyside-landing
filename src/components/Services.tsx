@@ -3,25 +3,24 @@ import ServicesStatement from "./ServicesStatement";
 import ServicesImages from "./ServicesImages";
 
 type Props = {};
-console.log("../../images/mobile/image-transform.jpg");
-const image1Desk = "../../images/desktop/image-transform.jpg";
-const image1Mobile = "../../images/mobile/image-transform.jpg";
+import image1Desk from "../../images/desktop/image-transform.jpg";
+import image1Mobile from "../../images/mobile/image-transform.jpg";
 const title1 = "Transform your brand";
 const text1 = `We are a full-service creative agency specializing in helping brands grow fast. 
   Engage your clients through compelling visuals that do most of the marketing for you.`;
 
-const image2Mobile = "../../images/mobile/image-stand-out.jpg";
-const image2Desk = "../../images/desktop/image-stand-out.jpg";
+import image2Mobile from "../../images/mobile/image-stand-out.jpg";
+import image2Desk from "../../images/desktop/image-stand-out.jpg";
 const title2 = `Stand out to the right audience`;
 const text2 = `Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places. `;
 
-const image3Mobile = "../../images/mobile/image-graphic-design.jpg";
-const image3Desk = "../../images/desktop/image-graphic-design.jpg";
+import image3Mobile from "../../images/mobile/image-graphic-design.jpg";
+import image3Desk from "../../images/desktop/image-graphic-design.jpg";
 const title3 = "Graphic design";
 const text3 = `Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.`;
 
-const image4Mobile = "../../images/mobile/image-photography.jpg";
-const image4Desk = "../../images/desktop/image-photography.jpg";
+import image4Mobile from "../../images/mobile/image-photography.jpg";
+import image4Desk from "../../images/desktop/image-photography.jpg";
 const title4 = `Photography`;
 const text4 = `Increase your credibility by getting the most stunning, high-quality photos that improve your business image.`;
 

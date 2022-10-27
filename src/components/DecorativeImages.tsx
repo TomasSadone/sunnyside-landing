@@ -3,22 +3,31 @@ import DecorativeImage from "./DecorativeImage";
 
 type Props = {};
 
+import milkBottkesDesk from "../../images/desktop/image-gallery-milkbottles.jpg";
+import milkBottkesMobile from "../../images/mobile/image-gallery-milkbottles.jpg";
+import orangeDesk from "../../images/desktop/image-gallery-orange.jpg";
+import orangeMobile from "../../images/mobile/image-gallery-orange.jpg";
+import coneDesk from "../../images/desktop/image-gallery-cone.jpg";
+import coneMobile from "../../images/mobile/image-gallery-cone.jpg";
+import sugarDesk from "../../images/desktop/image-gallery-sugar-cubes.jpg";
+import sugarMobile from "../../images/mobile/image-gallery-sugar-cubes.jpg";
+
 const images = [
   {
-    desk: `../../images/desktop/image-gallery-milkbottles.jpg`,
-    mobile: `../../images/mobile/image-gallery-milkbottles.jpg`,
+    desk: milkBottkesDesk,
+    mobile: milkBottkesMobile,
   },
   {
-    desk: `../../images/desktop/image-gallery-orange.jpg`,
-    mobile: `../../images/mobile/image-gallery-orange.jpg`,
+    desk: orangeDesk,
+    mobile: orangeMobile,
   },
   {
-    desk: `../../images/desktop/image-gallery-cone.jpg`,
-    mobile: `../../images/mobile/image-gallery-cone.jpg`,
+    desk: coneDesk,
+    mobile: coneMobile,
   },
   {
-    desk: `../../images/desktop/image-gallery-sugar-cubes.jpg`,
-    mobile: `../../images/mobile/image-gallery-sugar-cubes.jpg`,
+    desk: sugarDesk,
+    mobile: sugarMobile,
   },
 ];
 

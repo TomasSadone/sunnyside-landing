@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { ReactComponent as Logo } from "../../images/logo.svg";
 import DownArrow from "../../images/icon-arrow-down.svg";
 import HeaderLink from "./HeaderLink";
-const DesktopHeaderImage = "../../images/desktop/image-header.jpg";
-const MobileHeaderImage = "../../images/mobile/image-header.jpg";
+import DesktopHeaderImage from "../../images/desktop/image-header.jpg";
+import MobileHeaderImage from "../../images/mobile/image-header.jpg";
 import HamburgerMenu from "../../images/icon-hamburger.svg";
 
 type Props = {};
