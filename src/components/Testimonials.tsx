@@ -36,7 +36,7 @@ const Testimonials = (props: Props) => {
       <h1 className='md:mb-18 mb-16 font-fraunces text-xl tracking-[0.15em] text-grayish-blue'>
         CLIENT TESTIMONIALS
       </h1>
-      <div className='md:otrogap? flex flex-col justify-between gap-12 md:flex-row'>
+      <div className='md:otrogap? flex flex-col justify-between gap-20 md:flex-row md:gap-12'>
         {testimonies.map(testimony => {
           const { image, name, p, position } = testimony;
           return (

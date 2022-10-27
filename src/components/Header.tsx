@@ -42,7 +42,7 @@ const Header = (props: Props) => {
         </nav>
       </div>
       <div className='absolute top-[30%] flex w-full flex-col items-center justify-center gap-8'>
-        <h1 className='px-4 text-center font-fraunces text-6xl tracking-widest text-white'>
+        <h1 className='px-4 text-center font-fraunces text-6xl tracking-wider text-white md:tracking-widest'>
           WE ARE CREATIVES
         </h1>
         <img className=' left-2/4' src={DownArrow} alt='' />
