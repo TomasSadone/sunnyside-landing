@@ -9,8 +9,8 @@ type Props = {
 const ServicesStatement: React.FC<Props> = ({ title, text, color }) => {
   return (
     <>
-      <div className='grid aspect-[5/6] md:aspect-[6/5]'>
-        <div className='m-auto grid max-h-[80%] max-w-[80%] gap-6 l:max-h-[70%] l:max-w-[70%] l:gap-8'>
+      <div className='grid aspect-[5/6] place-content-center md:aspect-[6/5]'>
+        <div className='m-auto grid  max-w-[80%] gap-6  l:max-w-[70%] l:gap-8'>
           <h1 className='font-fraunces text-3xl font-black text-very-dark-desaturated-blue l:text-5xl'>
             {title}
           </h1>
